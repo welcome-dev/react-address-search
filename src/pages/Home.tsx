@@ -1,8 +1,14 @@
 import React from 'react';
+import { Container, Row, Col } from 'react-bootstrap';
 
 function Home() {
   return (
-    <div>Home Page Here</div>
+    <Container fluid>
+      <Row>
+        <Col>search zone</Col>
+        <Col xs={8}>map</Col>
+      </Row>
+    </Container>
   );
 }
 
